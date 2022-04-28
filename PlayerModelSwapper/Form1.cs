@@ -136,7 +136,7 @@ namespace PlayerModelSwapper {
 
             fileStream.Close();
 
-            //File.Delete(imagepath);
+            File.Delete(imagepath);
 
             textureProgress = true;
 
